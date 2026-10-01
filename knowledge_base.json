@@ -1,0 +1,82 @@
+{
+  "diseases": [
+    {
+      "name": "Lyme Disease",
+      "icd10": "A69.20",
+      "symptoms": {"fatigue": 0.9, "joint_pain": 0.8, "fever": 0.5, "rash": 0.7, "headache": 0.4},
+      "commonly_confused_with": ["Chronic Fatigue Syndrome", "Fibromyalgia"]
+    },
+    {
+      "name": "Chronic Fatigue Syndrome",
+      "icd10": "R53.82",
+      "symptoms": {"fatigue": 0.95, "joint_pain": 0.4, "headache": 0.5, "sleep_disturbance": 0.7},
+      "commonly_confused_with": ["Lyme Disease", "Fibromyalgia"]
+    },
+    {
+      "name": "Fibromyalgia",
+      "icd10": "M79.7",
+      "symptoms": {"fatigue": 0.8, "joint_pain": 0.85, "sleep_disturbance": 0.6, "headache": 0.5},
+      "commonly_confused_with": ["Lyme Disease", "Chronic Fatigue Syndrome"]
+    },
+    {
+      "name": "Pulmonary Embolism",
+      "icd10": "I26.99",
+      "symptoms": {"shortness_of_breath": 0.95, "chest_pain": 0.8, "rapid_heartrate": 0.6, "anxiety_feeling": 0.3},
+      "commonly_confused_with": ["Anxiety Disorder", "Asthma"]
+    },
+    {
+      "name": "Anxiety Disorder",
+      "icd10": "F41.9",
+      "symptoms": {"shortness_of_breath": 0.6, "rapid_heartrate": 0.7, "anxiety_feeling": 0.9, "chest_pain": 0.3},
+      "commonly_confused_with": ["Pulmonary Embolism", "Asthma"]
+    },
+    {
+      "name": "Asthma",
+      "icd10": "J45.909",
+      "symptoms": {"shortness_of_breath": 0.9, "cough": 0.7, "chest_tightness": 0.6},
+      "commonly_confused_with": ["Pulmonary Embolism", "COPD"]
+    },
+    {
+      "name": "Parkinson's Disease",
+      "icd10": "G20",
+      "symptoms": {"tremor": 0.9, "rigidity": 0.6, "slow_movement": 0.7, "balance_issues": 0.5},
+      "commonly_confused_with": ["Essential Tremor", "Normal Aging"]
+    },
+    {
+      "name": "Essential Tremor",
+      "icd10": "G25.0",
+      "symptoms": {"tremor": 0.95, "balance_issues": 0.2},
+      "commonly_confused_with": ["Parkinson's Disease"]
+    },
+    {
+      "name": "Hypothyroidism",
+      "icd10": "E03.9",
+      "symptoms": {"fatigue": 0.85, "weight_gain": 0.8, "cold_intolerance": 0.6, "depressed_mood": 0.5},
+      "commonly_confused_with": ["Depression"]
+    },
+    {
+      "name": "Depression",
+      "icd10": "F32.9",
+      "symptoms": {"fatigue": 0.8, "weight_gain": 0.4, "depressed_mood": 0.9, "sleep_disturbance": 0.6},
+      "commonly_confused_with": ["Hypothyroidism"]
+    },
+    {
+      "name": "Lung Cancer",
+      "icd10": "C34.90",
+      "symptoms": {"cough": 0.8, "chest_pain": 0.5, "weight_loss": 0.6, "shortness_of_breath": 0.6, "hemoptysis": 0.5},
+      "commonly_confused_with": ["COPD", "Pneumonia"]
+    },
+    {
+      "name": "COPD",
+      "icd10": "J44.9",
+      "symptoms": {"cough": 0.85, "shortness_of_breath": 0.8, "chest_tightness": 0.4},
+      "commonly_confused_with": ["Lung Cancer", "Asthma"]
+    },
+    {
+      "name": "Pneumonia",
+      "icd10": "J18.9",
+      "symptoms": {"cough": 0.8, "fever": 0.8, "chest_pain": 0.5, "shortness_of_breath": 0.6},
+      "commonly_confused_with": ["Lung Cancer", "COPD"]
+    }
+  ]
+}
